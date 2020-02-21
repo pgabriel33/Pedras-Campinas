@@ -1,10 +1,22 @@
 
 .header-area{
-    background-color: rgb(199, 222, 231);
+    background-color: gray;
 }
+
+.header-area a{
+    color: rgb(41, 37, 37);
+}
+
+
 
 .nav-item{
     padding: 10px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.nav-item-1{
+    padding: 20px;
     font-size: 20px;
     margin-right: 5px;
 }
@@ -44,14 +56,16 @@
 
 .carousel-area{
     padding: 40px 0 40px;
+    background:rgb(93, 236, 93);
 }
 
 .carousel-inner img{
     width: 10px;
     height: 600px;
 }
-.site-brading-area img{
-    width: 150px;
+.header-area img{
+    width: 80px;
+    margin: 0px 0px 0px 10px;
 }
 
 .single-promo{
@@ -84,7 +98,6 @@
 }
 
 .promo-area{
-    background: #fbfbfb;
     padding: 40px 0 40px;
     color: #fff;
 }
